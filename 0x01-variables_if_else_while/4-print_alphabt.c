@@ -4,8 +4,7 @@
  *
  * Return: Zero 0 (Success)
  */
-
-int main()
+int main(void)
 {
 	char c;
 	c = 'a';
