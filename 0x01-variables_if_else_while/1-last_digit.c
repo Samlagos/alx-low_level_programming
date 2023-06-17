@@ -1,15 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
  * main - The last digit
- *
  * Return: 0 (Success)
  */
 int main(void)
 {
 	int n;
-
 	int m;
 
 	srand(time(0));
