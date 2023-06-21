@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _add - Entry point
- *@n1: value to be computed
- *@n2: value to be computed
- * Return: Always 0 (Success)
+ * add - Entry point
+ * @n1: value to be computed
+ * @n2: value to be computed
+ * Return: integer value
  */
 
-int _add(int n1, int n2)
+int add(int n1, int n2)
 {
 return (n1 + n2);
 }
