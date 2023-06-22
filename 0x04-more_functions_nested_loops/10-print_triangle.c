@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - print_triangle with #
+ * print_triangle - print triangle with
  * @size: size
  * Return: void
  */
@@ -22,7 +22,7 @@ for (y = size - x; y > 1; y--)
 {
 _putchar(' ');
 }
-for (z = 0; z <= x; z++);
+for (z = 0; z <= x; z++)
 {
 _putchar('#');
 }
