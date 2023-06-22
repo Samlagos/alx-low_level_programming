@@ -2,13 +2,12 @@
 
 /**
  * more_numbers - prints numbers from 0 to 14, 10 times
- * Return: void
+ * Return: return 10 times the number 0 to 14
  */
 
 void more_numbers(void)
 {
-int x;
-int y;
+int x, y;
 
 for (x = 0; x <= 10; x++)
 {
