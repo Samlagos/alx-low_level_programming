@@ -1,24 +1,31 @@
 #include "main.h"
 
 /**
- * puts2 - print every other charater of the string
- *@str: the string to be treated
+ * puts2 - function should only print one charater out of two
+ * starting with the first one
+ *@str: inputy
  * Return: Always void
  */
 
 void puts2(char *str)
 {
-char rev = s[0];
-int counter = 0;
-int i;
+int longi = 0;
+int t = 0;
+char *y = str;
+int o;
 
-while (s[counter] != '\0')
-	counter++;
-for (i = 0; i < counter; i++)
+while (*y != '\0')
 {
-counter--;
-rev = s[i];
-s[i] = s[counter];
-s[counter] = rev;
+y++;
+longi++;
 }
+t = longi - 1;
+for (o = 0; o < t; o++)
+{
+if (o % 2 == 0)
+{
+_putchar(str[o]);
+}
+}
+_putchar('\n');
 }
