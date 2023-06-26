@@ -3,7 +3,7 @@
 /**
  * puts2 - function should only print one charater out of two
  * starting with the first one
- *@str: inputy
+ * @str: inputy
  * Return: Always void
  */
 
