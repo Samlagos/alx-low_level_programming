@@ -1,7 +1,8 @@
 include "main.h"
 /**
  * print_binary - print the binary equivalent of a dcimal num
- * @n: num to be print in binaryu
+ * @n: num to be print in binary
+ * Return: zero
  */
 
 void print_binary(unsigned long int n)
@@ -22,4 +23,5 @@ _putchar('0');
 }
 if (!count)
 _putchar('0');
+return (0);
 }
